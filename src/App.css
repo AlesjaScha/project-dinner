@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+.search {
+
+        width: 100%;
+        padding: 12px 24px;
+        background-color: transparent;
+        font-size: 14px;
+        line-height: 18px;
+        color: #7e5c43;
+        background-color: transparent;
+        margin-left: 0px;
+        box-shadow: inset 0px 0px 0px 4px #7e5c43;
+        background-color: #baa798;
+        border:5px solid  #c96a21;
+        border-radius: 50%;
+        font-family: 'Saira Condensed', sans-serif;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  
+}
+h1{
+  color: #c96a21;
+  background-color:#baa798;
+  padding: 20px;
+  border: 5px solid  #c96a21;
+  border-radius: 50%;
+  font-family: 'Saira Condensed', sans-serif;
+}
+.icon{
+      width: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+
+  list-style: none; 
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+li {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  display: block;
+  padding: .4em .4em .4em .8em;
+  margin: 0;
+  background: #baa798;
+  width: 30%;
+  font-family: 'Saira Condensed', sans-serif;
+  color:#c96a21;
+  font-size: 20px;
+  
+}
+.picture{
+  border:10px  solid #c96a21;
+  padding:#ddd6e8;
+  border-radius: 50%; 
+
+} 
+h2{
+  color:#c96a21;
+  font-family: 'Saira Condensed', sans-serif;
+  
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #baa798;
+  padding: 30px;
+  border-radius: 50%;
+}
+.title{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Saira Condensed', sans-serif;
+
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30%;
+  font-family: 'Saira Condensed', sans-serif;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
